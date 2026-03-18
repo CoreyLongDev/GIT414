@@ -59,17 +59,17 @@ table {
     --heading-font: 'Datatype', monospace;
 
     /* COLORS  */
-    --grey: #959393;
-    --red: #cd2b2b;
-    --gold: #c6b63e;
+    --grey: #a7a2a2;
+    --red: #b52222;
+    --gold: #e3d03e;
 }
 
 /* GLOBAL */
 body {
-    max-width: 1200px;
     margin: 0 auto;
     background-color: var(--grey);
     line-height: 1.5;
+    padding: 0 2rem;
 }
 
 h1, h2 {
@@ -84,6 +84,7 @@ h1 {
     font-size: 3rem;
     text-align: center;
     padding-top: 3rem;
+    color: var(--gold);
 }
 
 h2 {
@@ -94,10 +95,19 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 1rem 0;
+    padding: 1rem 0 2rem 0;
 }
 
 nav a {
     text-decoration: none;
-    color: inherit;
+    color: var(--red);
+    font-size: 1.5rem;
+}
+
+section {
+    padding-bottom: 4rem;
+}
+
+span {
+    color: var(--red);
 }
